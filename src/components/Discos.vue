@@ -37,6 +37,7 @@
                     ></v-text-field-->
 
                     <v-combobox
+                        v-model="editedItem.Artista"
                         label="Artista"
                         :items="artistas"
                     ></v-combobox>
